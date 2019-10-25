@@ -125,7 +125,7 @@ void append(char* s, char c)
 /* Imports names from names.txt to add to the HashTable */
 void importNames(){
     char names[6000][256];
-    char * filename = "names.txt";
+    char * filename = "NamesForHash.txt";
     FILE * fp = fopen(filename, "r");
     if (fp == NULL){
         printf("Can't find file. Continuing without adding names to table\n");
